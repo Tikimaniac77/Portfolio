@@ -3,9 +3,9 @@
     margin: 0;
 }
 
-body {
-    background-color: rgb(161, 179, 111)
-    
+body { 
+    display:flex;
+    flex-direction:column;
 }
 
 header {
@@ -14,10 +14,9 @@ header {
     justify-content: space-between;
     padding: 25px 25px 3px 25px;
     border-bottom: 5px rgb(40, 97, 18) solid;
-    height: 200px;
-    height: 200px;
+    width: 100%;
     background-color: red;
-    background-image: linear-gradient(to bottom left, red, yellow);
+    background-image: linear-gradient(to bottom left, rgb(112, 112, 253), red, yellow);
 }
 
 .name {
@@ -54,4 +53,38 @@ nav ul {
 
 nav li {
     padding: 10px 10px 0px 10px;
+}
+
+#content {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    flex: 1;
+    background-color: rgb(9, 19, 0);
+    background-image: linear-gradient(to top left, rgb(9, 19, 0), green, yellow);
+
+    
+
+}
+
+#content div {
+    display:flex;
+    border: 1px gold solid;
+    height:300px;
+    
+}
+
+#content h1 {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid gold;
+    width: 25%;
+    justify-content:center;
+    padding:10px;
+    font-size: 34px;
+    color: gold;
+    text-shadow: 3px -1px 5px black;
+    font-family: fangsong;
+    
+
 }
