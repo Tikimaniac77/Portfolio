@@ -1,0 +1,10 @@
+* {
+    Border: 1px red solid;
+}
+body {
+    background-color: rgb(161, 179, 111)
+}
+header h1 {
+    border: 2px rgb(40, 97, 18)
+    
+}
