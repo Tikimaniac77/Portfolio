@@ -1,10 +1,57 @@
-* {
-    Border: 1px red solid;
+* { box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
 body {
     background-color: rgb(161, 179, 111)
-}
-header h1 {
-    border: 2px rgb(40, 97, 18)
     
+}
+
+header {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 25px 3px 25px;
+    border-bottom: 5px rgb(40, 97, 18) solid;
+    height: 200px;
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(to bottom left, red, yellow);
+}
+
+.name {
+    display:flex;
+    font-size: 50px;
+    color: gold;
+    text-shadow: 3px -1px 5px green;
+    font-family: fangsong;
+}
+
+header p .Tikimaniac77 {
+    color: darkgreen;
+}
+
+header p {
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    
+}
+
+.header-bio {
+    display:flex;
+    justify-content: center;
+    color: gold;
+    text-shadow: 5px -1px 5px green;
+    font-size: 24px;
+}
+
+nav ul {
+    display:flex;
+    justify-content: flex-end;  
+}
+
+nav li {
+    padding: 10px 10px 0px 10px;
 }
