@@ -13,7 +13,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     padding: 25px 25px 3px 25px;
-    border-bottom: 5px rgb(40, 97, 18) solid;
+    border-bottom: 3px rgb(40, 97, 18) solid;
     width: 100%;
     background-color: red;
     background-image: linear-gradient(to bottom left, rgb(112, 112, 253), red, yellow);
@@ -32,19 +32,29 @@ header p .Tikimaniac77 {
 }
 
 header p {
+    display:flex;
     font-weight: bold;
     font-family:'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 18px;   
+}
+
+#header-bio {
+    display:flex;
+    flex-direction:row;
+    align-items:Center;
+    justify-content:space-between;
     
 }
 
-.header-bio {
+#bio {
     display:flex;
-    justify-content: center;
     color: gold;
     text-shadow: 5px -1px 5px green;
     font-size: 24px;
+    padding: 100px;
+     
 }
+
 
 nav ul {
     display:flex;
@@ -69,7 +79,7 @@ nav li {
 
 #content div {
     display:flex;
-    border: 1px gold solid;
+    /*border: 1px gold solid;*/
     height:300px;
     
 }
@@ -85,6 +95,30 @@ nav li {
     color: gold;
     text-shadow: 3px -1px 5px black;
     font-family: fangsong;
-    
 
+}
+
+#promo {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top: 12%;
+}
+
+
+.aside-mywork h2 {
+    padding: 15px 36px 0px 38px;
+    border: 2px gold solid;
+    border-radius: 50% 50% 0 0;
+    height: 40px;
+    color: gold;
+    text-shadow: 1px 1px 1px black;
+    background-color: red;
+    background-image: linear-gradient(to bottom left, rgb(112, 112, 253), red, yellow);
+}
+
+#promo-img{
+    border: 0px 3px 3px 3px gold solid;
+    border-inline: 3px gold solid;
+    border-radius: 0 0 50% 50%;
 }
